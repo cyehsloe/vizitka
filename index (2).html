@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F3F3E9">
+  <meta name="description" content="Инженерное портфолио Дарьи Ивановой: робототехника, компьютерное зрение, электроника и беспилотные технологии.">
+  <title>Дарья Иванова — инженерное портфолио</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <style>
+    .project-image-placeholder { width:100%; height:100%; min-height:180px; display:grid; place-items:center; padding:20px; box-sizing:border-box; color:#0212EE; background:linear-gradient(135deg,#FEC6E9,#F3F3E9); font:500 11px 'DM Mono',monospace; letter-spacing:.12em; text-align:center; }
+  </style>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Дарья Иванова — наверх">
+        <span class="brand-mark">DI</span>
+        <span>ПОРТФОЛИО <i>·</i> 2026</span>
+      </a>
+      <button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+      <nav class="main-nav" aria-label="Основная навигация">
+        <a href="#about">Обо мне</a>
+        <a href="#projects">Проекты</a>
+        <a href="#stack">Технологии</a>
+        <a href="#experience">Опыт</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-wrap" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> ENGINEERING / ROBOTICS / COMPUTER VISION</p>
+          <h1 id="hero-title">Дарья<br><span>Иванова</span><sup>01</sup></h1>
+          <p class="hero-lead">Исследую и создаю интеллектуальные технические системы — от алгоритмов компьютерного зрения до робототехнических устройств.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Смотреть проекты <span>↘</span></a>
+            <a class="text-link" href="#about">Обо мне <span>↓</span></a>
+          </div>
+          <p class="hero-note">ВЕЛИКИЙ НОВГОРОД · РОССИЯ</p>
+        </div>
+        <div class="hero-photo">
+          <img src="me.jpg.jpg" alt="Дарья Иванова">
+          <span class="photo-index">01 / ПОРТРЕТ</span>
+        </div>
+        <div class="hero-index"><span>SCROLL TO EXPLORE</span><span class="scroll-line"></span><span>↓</span></div>
+      </section>
+
+      <section class="section section-wrap about-section" id="about">
+        <div class="section-heading">
+          <span class="section-number">(01)</span>
+          <h2>Обо мне</h2>
+          <span class="section-kicker">A LITTLE INTRODUCTION</span>
+        </div>
+        <div class="about-grid">
+          <div class="about-main">
+            <p class="large-copy">Мне интересно, как техника может <em>воспринимать окружающий мир, анализировать информацию и самостоятельно выбирать действия.</em></p>
+            <p>Я учусь в 10 классе лицея-интерната имени М. М. Сперанского в Великом Новгороде на технологическом профиле. Занимаюсь научно-технологическими проектами, в которых соединяются программирование, компьютерное зрение, электроника и робототехника.</p>
+          </div>
+          <aside class="about-facts">
+            <div class="fact"><span>01 / ОБРАЗОВАНИЕ</span><strong>10 класс</strong><small>Технологический профиль</small></div>
+            <div class="fact"><span>02 / ШКОЛА</span><strong>Лицей-интернат</strong><small>имени М. М. Сперанского</small></div>
+            <div class="fact"><span>03 / ГОРОД</span><strong>Великий Новгород</strong><small>Россия</small></div>
+            <div class="fact"><span>04 / ИНТЕРЕСЫ</span><strong>Робототехника · БПЛА</strong><small>Компьютерное зрение · Электроника</small></div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section section-wrap projects-section" id="projects">
+        <div class="section-heading">
+          <span class="section-number">(02)</span>
+          <h2>Избранные проекты</h2>
+          <span class="section-kicker">SELECTED WORK / 2024—2026</span>
+        </div>
+        <div class="project-list">
+          <article class="project-card project-featured">
+            
+        <div class="project-image-container">
+              <img src="project1.jpg.jpg" alt="Распознавание птиц" loading="lazy">
+            </div>
+            <div class="project-meta"><span>01 / BIG CHALLENGES</span><span>2026</span></div>
+            <div class="project-content">
+              <div>
+                <p class="project-type">КОМПЬЮТЕРНОЕ ЗРЕНИЕ · БЕСПИЛОТНЫЕ СИСТЕМЫ</p>
+                <h3>Распознавание птиц<br>для манёвра БПЛА</h3>
+                <p class="project-description">Исследование возможности различать хищных и мирных птиц по силуэту, чтобы использовать результаты распознавания при выборе манёвра уклонения беспилотного летательного аппарата.</p>
+              </div>
+              <div class="project-art bird-art" aria-hidden="true">
+                <div class="scan-ring"></div><div class="scan-ring ring-two"></div>
+                <svg viewBox="0 0 320 190" role="img"><path d="M28 112 C76 92 91 54 139 82 C161 95 174 104 194 95 C224 81 247 67 292 80 C259 94 241 112 211 119 C178 127 158 113 139 109 C100 100 76 121 28 112Z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M139 82 L154 42 L168 99 M194 95 L225 44" fill="none" stroke="currentColor" stroke-width="1.5" opacity=".7"/></svg>
+                <span class="art-label">SILHOUETTE ANALYSIS / 01</span>
+              </div>
+            </div>
+            <div class="project-bottom">
+              <div class="tag-list"><span>Python</span><span>OpenCV</span><span>Статистика</span></div>
+              <span class="result-label">ПОБЕДИТЕЛЬНИЦА РЕГИОНАЛЬНОГО ЭТАПА · ПРИЗЁР ЗАКЛЮЧИТЕЛЬНОГО ЭТАПА</span>
+            </div>
+            <details class="project-details">
+              <summary>Подробнее о проекте <span>＋</span></summary>
+              <div class="details-body">
+                <p>Я изучала особенности силуэтов птиц, собирала и размечала изображения, сравнивала геометрические параметры и анализировала полученные данные. Для обработки изображений использовала Python и OpenCV, для проверки гипотез — статистические методы.</p>
+                <p>В ходе работы мы исследовали, какие особенности силуэта могут помочь различать группы птиц, и рассматривали, как результаты распознавания можно использовать при выборе манёвра БПЛА.</p>
+                <p class="contribution"><b>Мой вклад:</b> сбор и разметка изображений, анализ геометрических признаков, обработка данных и проверка исследовательских гипотез.</p>
+              </div>
+            </details>
+          </article>
+
+          <article class="project-card">
+            
+        <div class="project-image-container">
+              <img src="project2.jpg.jpg" alt="Рой роботов для карьера" loading="lazy">
+            </div>
+            <div class="project-meta"><span>02 / INDUSTRIAL PROJECT</span><span>ДСТ-УРАЛ</span></div>
+            <div class="project-content">
+              <div>
+                <p class="project-type">РОБОТОТЕХНИКА · ЭЛЕКТРОНИКА</p>
+                <h3>ДСТ-КарьерА</h3>
+                <p class="project-description">Программируемый рой мини-роботов для карьера: самосвалы, бульдозеры и погрузчики, взаимодействующие в рамках общей системы.</p>
+              </div>
+              <div class="project-art quarry-art" aria-hidden="true">
+                <div class="robot-shape"><span></span><i></i></div>
+                <div class="robot-shape robot-two"><span></span><i></i></div>
+                <div class="robot-shape robot-three"><span></span><i></i></div>
+                <span class="art-label">MULTI-ROBOT SYSTEM</span>
+              </div>
+            </div>
+            <div class="project-bottom">
+              <div class="tag-list"><span>Сборка</span><span>Пайка</span><span>Презентация</span></div>
+              <a class="project-external" href="https://bigchallenges.ru/quarry" target="_blank" rel="noopener">Сайт проекта ↗</a>
+            </div>
+            <details class="project-details">
+              <summary>Подробнее о проекте <span>＋</span></summary>
+              <div class="details-body">
+                <p>Я участвовала в сборке конструкций и пайке системы питания. Также занималась подготовкой презентации и сайта проекта, а на защите и фестивале проектов рассказывала о разработке.</p>
+                <p>Этот опыт помог мне ближе познакомиться с практической стороной инженерной работы и увидеть, как конструкция, электронные компоненты и программное управление складываются в единую систему.</p>
+              </div>
+            </details>
+          </article>
+
+          <article class="project-card">
+            
+        <div class="project-image-container">
+              <div class="project-image-placeholder" role="img" aria-label="Фотография робота пока не добавлена">ФОТО РОБОТА БУДЕТ ДОБАВЛЕНО</div>
+            </div>
+            <div class="project-meta"><span>03 / SIRIUS — MINSK</span><span>2026</span></div>
+            <div class="project-content">
+              <div>
+                <p class="project-type">ЭЛЕКТРОНИКА · ВСТРОЕННЫЕ СИСТЕМЫ</p>
+                <h3>Робот для экстремальных условий</h3>
+                <p class="project-description">Индивидуальный проект на международной образовательной смене «Сириус — Минск» по направлению «Электроника и связь».</p>
+              </div>
+              <div class="project-art circuit-art" aria-hidden="true">
+                <div class="circuit-board"><span class="chip"></span><i class="pin p1"></i><i class="pin p2"></i><i class="pin p3"></i><i class="pin p4"></i><b>PCB / 03</b></div>
+                <span class="art-label">ELECTRONICS & CONTROL</span>
+              </div>
+            </div>
+            <div class="project-bottom">
+              <div class="tag-list"><span>Arduino IDE</span><span>EasyEDA</span><span>Computer Vision</span></div>
+            </div>
+            <details class="project-details">
+              <summary>Подробнее о проекте <span>＋</span></summary>
+              <div class="details-body">
+                <p>Я разрабатывала небольшого робота, предназначенного для работы в экстремальных условиях. Занималась электроникой, проектированием печатной платы, программированием контроллера в Arduino IDE и компьютерным зрением.</p>
+                <p>В этой работе мне пришлось объединять несколько технических направлений в одном устройстве и продумывать, как они должны взаимодействовать между собой.</p>
+              </div>
+            </details>
+          </article>
+
+          <article class="project-card">
+            
+        <div class="project-image-container">
+              <div class="project-image-placeholder" role="img" aria-label="Фотография проекта по влажности почвы пока не добавлена">ФОТО ПРОЕКТА БУДЕТ ДОБАВЛЕНО</div>
+            </div>
+            <div class="project-meta"><span>04 / BIG CHALLENGES</span><span>2024—2025</span></div>
+            <div class="project-content">
+              <div>
+                <p class="project-type">АГРОТЕХНОЛОГИИ · АНАЛИЗ ИЗОБРАЖЕНИЙ</p>
+                <h3>Определение влажности почвы</h3>
+                <p class="project-description">Исследование возможности оценивать состояние почвы поля капусты по изображениям.</p>
+              </div>
+              <div class="project-art soil-art" aria-hidden="true">
+                <div class="soil-grid"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                <span class="art-label">IMAGE-BASED ANALYSIS</span>
+              </div>
+            </div>
+            <div class="project-bottom">
+              <div class="tag-list"><span>Компьютерное зрение</span><span>Анализ данных</span></div>
+            </div>
+            <details class="project-details">
+              <summary>Подробнее о проекте <span>＋</span></summary>
+              <div class="details-body">
+                <p>В 2024–2025 учебном году я работала над проектом «Цифровизация персонализированного определения влажности почвы поля капусты». Мы исследовали возможность оценивать состояние почвы по изображениям.</p>
+                <p>Работа помогла мне понять, что особенно меня увлекают методы программирования и анализа изображений, а не только конкретная предметная область. Так я решила перенести эти методы в транспортную тематику.</p>
+              </div>
+            </details>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-wrap stack-section" id="stack">
+        <div class="section-heading">
+          <span class="section-number">(03)</span>
+          <h2>Инструменты</h2>
+          <span class="section-kicker">TECHNICAL TOOLKIT</span>
+        </div>
+        <div class="stack-grid">
+          <div class="stack-item"><span>01</span><div><h3>Программирование</h3><p>Python <i>·</i> C++</p></div></div>
+          <div class="stack-item"><span>02</span><div><h3>Компьютерное зрение</h3><p>OpenCV</p></div></div>
+          <div class="stack-item"><span>03</span><div><h3>Микроконтроллеры</h3><p>Arduino <i>·</i> Arduino IDE</p></div></div>
+          <div class="stack-item"><span>04</span><div><h3>Электроника</h3><p>Пайка <i>·</i> Сборка устройств</p></div></div>
+          <div class="stack-item"><span>05</span><div><h3>Проектирование</h3><p>КОМПАС-3D <i>·</i> EasyEDA</p></div></div>
+          <div class="stack-item"><span>06</span><div><h3>Анализ данных</h3><p>Excel <i>·</i> Статистические методы</p></div></div>
+        </div>
+        <p class="stack-note">Инструменты указаны в контексте их практического применения в проектах.</p>
+      </section>
+
+      <section class="section section-wrap experience-section" id="experience">
+        <div class="section-heading">
+          <span class="section-number">(04)</span>
+          <h2>Опыт и достижения</h2>
+          <span class="section-kicker">EDUCATION / RESULTS</span>
+        </div>
+        <div class="experience-grid">
+          <div class="experience-column">
+            <p class="column-label">ОБРАЗОВАТЕЛЬНЫЙ ОПЫТ</p>
+            <div class="timeline-item"><span>30.09 — 23.10.2026</span><h3>«Сириус — Минск»</h3><p>Международная образовательная смена, направление «Электроника и связь». Индивидуальный проект по робототехнике.</p></div>
+            <div class="timeline-item"><span>2024 — 2026</span><h3>«Большие вызовы»</h3><p>Проектная работа в областях агротехнологий и транспортных беспилотных систем.</p></div>
+            <div class="timeline-item"><span>Дополнительное образование</span><h3>Центр «Онфим»</h3><p>Проектная подготовка и участие в образовательных программах.</p></div>
+          </div>
+          <div class="experience-column achievements-column">
+            <p class="column-label">ИЗБРАННЫЕ РЕЗУЛЬТАТЫ</p>
+            <div class="achievement-list" aria-label="Достижения — нажмите или наведите курсор, чтобы посмотреть диплом">
+              <button class="achievement achievement-trigger" type="button" data-certificate="big-challenges.jpg.jpg" aria-label="Посмотреть диплом: Большие вызовы">
+                <span>2026</span><p><b>«Большие вызовы»</b> — победительница регионального этапа, призёр заключительного этапа.</p><i class="achievement-hint">ДИПЛОМ ↗</i>
+              </button>
+              <button class="achievement achievement-trigger" type="button" data-certificate="space-olympiad.jpg.jpg" aria-label="Посмотреть диплом: Космическая олимпиада">
+                <span>2026</span><p><b>Космическая олимпиада</b> — победительница I этапа.</p><i class="achievement-hint">ДИПЛОМ ↗</i>
+              </button>
+              <button class="achievement achievement-trigger" type="button" data-certificate="rosseti.jpg.jpg" aria-label="Посмотреть диплом: Олимпиада Россети">
+                <span>—</span><p><b>Олимпиада «Россети»</b> — призёр.</p><i class="achievement-hint">ДИПЛОМ ↗</i>
+              </button>
+              <button class="achievement achievement-trigger" type="button" data-certificate="hse-key.jpg.jpg" aria-label="Посмотреть подтверждение: НИУ ВШЭ Ключ">
+                <span>—</span><p><b>НИУ ВШЭ «Ключ»</b> — выход на региональный этап кейс-чемпионата.</p><i class="achievement-hint">ДОКУМЕНТ ↗</i>
+              </button>
+              <button class="achievement achievement-trigger" type="button" data-certificate="novsu-conference.jpg.jpg" aria-label="Посмотреть диплом: Конференция НовГУ">
+                <span>2025</span><p><b>Конференция НовГУ «Дни науки и инноваций»</b> — диплом за лучший доклад и первое место в секции.</p><i class="achievement-hint">ДИПЛОМ ↗</i>
+              </button>
+            </div>
+            <div class="certificate-preview" id="certificate-preview" aria-hidden="true">
+              <div class="certificate-paper">
+                <img src="" alt="Изображение диплома">
+                <span class="certificate-fallback">ЗДЕСЬ БУДЕТ СКАН ДИПЛОМА</span>
+              </div>
+            </div>
+            <div class="certificate-backdrop" id="certificate-backdrop"></div>
+          </div>
+        </div>
+        <div class="people-skills">
+          <span class="column-label">КОММУНИКАЦИЯ И КОМАНДНАЯ РАБОТА</span>
+          <p>Дебаты <i>·</i> «Что? Где? Когда?» <i>·</i> Волонтёрство на финале Чемпионата высоких технологий в Великом Новгороде (2026).</p>
+          <div class="people-gallery" aria-label="Фотографии с мероприятий">
+            <figure class="people-photo-card">
+              <div class="people-photo-frame"><img src="debates.jpg" alt="Участие во Всероссийском турнире по дебатам" loading="lazy"></div>
+              <figcaption>ФИНАЛ ВСЕРОССИЙСКОГО ТУРНИРА ПО ДЕБАТАМ</figcaption>
+            </figure>
+            <figure class="people-photo-card">
+              <div class="people-photo-frame"><img src="chgk.jpg" alt="Команда на игре Что? Где? Когда?" loading="lazy"></div>
+              <figcaption>«ЧТО? ГДЕ? КОГДА?» · КОМАНДНЫЕ ИГРЫ</figcaption>
+            </figure>
+            <figure class="people-photo-card">
+              <div class="people-photo-frame"><img src="волонтерство.jpg" alt="Волонтёрство на финале Чемпионата высоких технологий" loading="lazy"></div>
+              <figcaption>ЧЕМПИОНАТ ВЫСОКИХ ТЕХНОЛОГИЙ · 2026</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section section-wrap" id="contact">
+        <div class="section-heading">
+          <span class="section-number">(05)</span>
+          <h2>Контакты</h2>
+          <span class="section-kicker">GET IN TOUCH</span>
+        </div>
+        <div class="contact-content">
+          <h2>Интересно работать<br>над <em>новыми задачами.</em></h2>
+          <p>Открыта к инженерным проектам, обмену опытом и сотрудничеству.</p>
+          <div class="contact-links">
+            
+            
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-wrap">
+      <a class="brand" href="#top"><span class="brand-mark">DI</span><span>ДАРЬЯ ИВАНОВА</span></a>
+      <span>ENGINEERING PORTFOLIO · 2026</span>
+      <a href="#top" class="back-top">НАВЕРХ ↑</a>
+    </footer>
+  </div>
+</body>
+</html>
